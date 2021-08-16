@@ -1,0 +1,30 @@
+.container {
+    font-family: "Indie Flower";
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 99%;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+}
+.item {
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.text {
+    padding-left: 30%;
+}
+.background {
+    width: 100%;
+    background-image: -moz-element();
+}
+
+body {
+    background-image: url("https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+    background-position: center;
+    color: white;
+}
