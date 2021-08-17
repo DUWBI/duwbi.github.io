@@ -20,7 +20,6 @@
 }
 .background {
     width: 100%;
-    background-image: -moz-element();
 }
 
 body {

@@ -32,8 +32,23 @@ function changeBackground() {
     if(backgroundVal == 2) {
         document.body.style.backgroundImage = "url('https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg')";
     }
-    backgroundVal++;
     if(backgroundVal == 3) {
+        document.body.style.backgroundImage = "url('https://i1.sndcdn.com/artworks-sxpwdOSrkSzysVzx-rhQcaA-t500x500.jpg')";
+    }
+    if(backgroundVal == 4) {
+        document.body.style.backgroundImage = "url('https://c.tenor.com/Uyw54N0sldkAAAAM/explode-heart-heart-fading.gif')";
+    }
+    if(backgroundVal == 5) {
+        document.body.style.backgroundImage = "url('https://ichef.bbci.co.uk/news/976/cpsprodpb/140B3/production/_111699028_gettyimages-1168451046.jpg')";
+    }
+    if(backgroundVal == 6) {
+        document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/ac/2a/ab/ac2aab4b58cd4472edcfd62bd4618177.gif')";
+    }
+    if(backgroundVal == 7) {
+        document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1564415900645-30612d54dd0c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFuZ2VyaW5lc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80')";
+    }
+    backgroundVal++;
+    if(backgroundVal == 8) {
         backgroundVal = 1;
     }
 }
