@@ -4,6 +4,7 @@ var days = document.getElementById("days");
 var hours = document.getElementById("hours");
 var minutes = document.getElementById("minutes");
 var seconds = document.getElementById("seconds");
+var backgroundVal = 1;
 var goalDate = new Date("Dec 20, 2025 12:00:00").getTime();
 
 let timer = setInterval(tick, 1000);
@@ -23,3 +24,18 @@ function tick() {
     dif = dif % (1000 * 60);
     seconds.innerText = Math.floor(dif / 1000);
 }
+
+function changeBackground() {
+    if(backgroundVal == 1) {
+        document.body.style.backgroundImage = "url('https://media4.giphy.com/media/xTcnT2ZYSaCTdkTSmI/giphy.gif')";
+    }
+    if(backgroundVal == 2) {
+        document.body.style.backgroundImage = "url('https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg')";
+    }
+    backgroundVal++;
+    if(backgroundVal == 3) {
+        backgroundVal = 1;
+    }
+}
+
+document.body.addEventListener("click", changeBackground);
